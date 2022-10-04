@@ -5,7 +5,8 @@
     --deep-blue:#171A53;
     --parrot-color:#BDEA09;
     --blue:#142580;
-
+    --ber-color:rgba(242, 242, 242, .5);
+    --deep-ber-color:rgba(209, 209, 209, 1);
     --five-px:.313rem;
     --one-px:0.063rem;
     --eight-px:0.5rem;
@@ -50,7 +51,9 @@ a{
 /* menu_bar_finish */
 
 
-
+.email_sylbs{
+    color: #000 !important;
+}
 
 
 /* banner_1st_start */
@@ -87,7 +90,7 @@ a{
 
 .banner_scnd{
     background-color: var(--blue);
-    border-bottom-left-radius: 50px;
+    border-bottom-left-radius: 5rem;
     color: var(--white-color);
 }
 
@@ -129,6 +132,32 @@ a{
     border: 2px solid var(--deep-blue);
     padding: var(--ten-px);
     border-radius: var(--five-px);
+}
+/* learn_finish */
+
+
+
+
+/* des_start */
+.des-bar{
+    width: 1px;
+    height: 172px;
+    
+    border-right: 1px solid var(--deep-ber-color);
+}
+.des-round{
+    width: var(--eight-px);
+    height: var(--eight-px);
+    border-radius: 50%;
+    background-color: var(--blue);
+    
+}
+.layout{
+    margin-top: 2.313rem;
+}
+.learn_how{
+    font-size: 12px;
+    text-align: justify;
 }
 @media screen and (max-width:767px) {
     /* menu_bar_start */
