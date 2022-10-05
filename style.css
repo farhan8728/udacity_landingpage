@@ -227,11 +227,29 @@ a{
     font-size: var(--twelve-px);
 }
 
+/* program_pricing-finish */
 
 
 
 
+/* personalized-services-start */
+.personalized-services p{
+    font-size: var(--twelve-px);
+}
+.navs{
+    margin: auto;
+    width: 55%;
+}
 
+.navs p{
+    font-size: var(--twelve-px);
+}
+
+.navs-head:focus{
+    color: var(--white-color) !important;
+    opacity: 1 !important;
+}
+/* personalized-services-finish */
 
 
 
@@ -270,6 +288,9 @@ a{
     .final_project{
         margin-top: 1rem !important;
     }
+    .get-timely{
+        margin-top: 1rem;
+    }
    
 }
 
@@ -285,6 +306,13 @@ a{
     }
     .final_project{
         margin-top: 0 !important;
+    }
+    .navs{
+        margin: auto;
+        width: 100%;
+    }
+    .get-timely{
+        margin-top: 1rem;
     }
 }
 
