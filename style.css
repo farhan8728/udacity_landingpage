@@ -8,6 +8,7 @@
     --ber-color:rgba(242, 242, 242, .5);
     --deep-ber-color:rgba(209, 209, 209, 1);
     --ash-color:#f9f9f9;
+    --f6f6f6:#f6f6f6;
 
     --five-px:.313rem;
     --one-px:0.063rem;
@@ -15,6 +16,7 @@
     --two-px:0.125rem;
     --sixteen-px:1rem;
     --ten-px:0.625rem;
+    --twelve-px:0.75rem;
     
 }
 /* body{
@@ -184,6 +186,64 @@ a{
     border-bottom-right-radius: 50px;
     font-size: 0.75rem;
 }
+/* des-finish */
+
+
+
+
+/* programs-include-start */
+.programs-include{
+    background-color: var(--deep-blue);
+    color: var(--white-color);
+}
+.programs-include p{
+    font-size: var(--twelve-px);
+}
+.programs-include h4{
+    font-size: 1.3rem;
+}
+/* programs-include-finish */
+
+
+
+
+
+
+/* program_pricing-start */
+.program_pricing{
+    background-color: var(--f6f6f6);
+}
+
+.student{
+    border-bottom-left-radius: 5rem;
+}
+.career{
+    border-top-right-radius: 5rem;
+}
+.class{
+    border-bottom-right-radius: 5rem;
+}
+.program_pricing p{
+    font-size: var(--twelve-px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:767px) {
     /* menu_bar_start */
     .menu_getstarted{
