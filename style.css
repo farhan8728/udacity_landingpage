@@ -300,7 +300,15 @@ html{
     color: var(--black-color);
 }
 
-
+.item-review{
+    background-color: var(--deep-blue);
+    color: var(--white-color);
+    padding: 1.5rem;
+    
+}
+.item-review-img{
+    padding-top: 4rem;
+}
 
 
 
@@ -356,7 +364,12 @@ html{
     .get-timely{
         margin-top: 1rem;
     }
-   
+    .active{
+        display: none;
+    }
+    .mb-scnd{
+        margin-left: 1rem;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px){
