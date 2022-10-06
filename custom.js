@@ -25,10 +25,10 @@ window.addEventListener('scroll',farhan)
 
 function farhan(){
     if(window.pageYOffset > 300){
-        toTop.classList.add('active')
+        toTop.classList.add('active123')
     }
     else{
-        toTop.classList.remove('active')
+        toTop.classList.remove('active123')
     }
 }
 
