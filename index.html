@@ -268,7 +268,47 @@
                     <p class="mb-3 mt-3 learn_right_p">4 months to complete</p>
                     <p class="learn_right_p">The goal of the Front End Web Developer Nanodegree program is to equip learners with the unique skills they need to build and develop a variety of websites and applications. Graduates of this Nanodegree program will be able to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI (User Interface) applications using JavaScript and HTML, and connect a web application to backend server data using JavaScript. Students will also build competency automating application build and deployment using Webpack and improving offline performance of websites using Service Worker.</p>
                     <a href="#" class="related_course">Related Course</a>
-                    <a href="#" class="d_s_syllabus">Download Syllabus</a>
+                    <!-- <a href="#" class="d_s_syllabus">Download Syllabus</a> -->
+
+                    <button type="button" class=" mx-3 scnd-d-syllabus fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo">Download Syllabus</button>
+
+
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title email_sylbs" id="exampleModalLabel">Fill in the form to receive more information about the course.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label email_sylbs">Email</label>
+                            <input type="email" class="form-control" id="recipient-name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label email_sylbs">Full Name</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label email_sylbs">Contact Number</label>
+                            <input type="email" class="form-control" id="recipient-name">
+                        </div>
+                       
+
+                        
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    </div>
+                </div>
+
+
                 </div>
             </div>
         </div>
@@ -348,7 +388,7 @@
                         <p class="learn_how">Learn how to effectively create the structure of a website using semantic HTML, and style websites with CSS and responsive layouts. Develop an understanding of different use cases for CSS Grid and Flexbox, and structure the layout of a web page using grid columns and rows.</p>
 
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <button type="button" class="btn btn-primary blog-web" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             Project: Blog Website
                         </button>
   
@@ -380,7 +420,7 @@
                         <p class="learn_how">Use JavaScript to control a webpage. Learn what the Document Object Model (DOM) is, and use JavaScript and the DOM to dictate page content and interactions. Gain experience working with Browser Events and managing website performance by controlling content creation efficiently.</p>
 
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                        <button type="button" class="btn btn-primary blog-web" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
                             Project: Dynamic Landing Page for Marketing Content
                         </button>
   
@@ -411,7 +451,7 @@
                         <p class="learn_how">Set up a Node and Express environment so you can develop web applications on your local machine, and learn to handle HTTP Requests & Routes. Update and modify website elements dynamically using asynchronously retrieved data.</p>
 
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                        <button type="button" class="btn btn-primary blog-web" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
                             Project: Weather Journal
                         </button>
   
@@ -443,7 +483,7 @@
                         <p class="learn_how">Develop an understanding of how to use build tools, such as Webpack, for automating build tasks. Create CSS variables with Sass and configure Webpack to use Sass controlled stylesheets. Learn how to cache server data and website functionality using Service Worker.</p>
 
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                        <button type="button" class="btn btn-primary blog-web" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
                             Article Analysis Website
                         </button>
   
@@ -472,7 +512,7 @@
 
 
 
-                        <button type="button" class="btn btn-primary final_project" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                        <button type="button" class="btn btn-primary final_project blog-web" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
                         Front End Web Developer Nanodegree Program Capstone
                         </button>
   
@@ -683,31 +723,31 @@
     </section>
 
 
-    <section class="mt-5 mb-5 learn-best">
+    <section class="mt-5  learn-best">
         <h1 class="pt-5 pb-3 text-center">Top student reviews</h1>
         <div class="container">
             <div class="row py-5">
                 <div class="col-lg-12">
                     
                     <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <img src="./images/mentor-carousel.jpg" class="img-fluid img-thumbnail" alt="">
-                            <h4>Farhan</h4>
+                        <div class="item item-review">
+                            <img src="./images/mentor-carousel.jpg" class="img-fluid item-review-img img-thumbnail" alt="">
+                            <h4 class="pt-2">Farhan</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eos officia obcaecati excepturi debitis sunt quos? Soluta, harum est unde excepturi voluptatem minus iusto tempore.</p>
                         </div>
                         <div class="item item-review">
-                            <img src="./images/mentor-carousel.jpg" class="img-fluid item-review-img rounded" alt="">
-                            <h4>Farhan</h4>
+                            <img src="./images/mentor-carousel.jpg" class="img-fluid item-review-img img-thumbnail" alt="">
+                            <h4 class="pt-2">Farhan</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eos officia obcaecati excepturi debitis sunt quos? Soluta, harum est unde excepturi voluptatem minus iusto tempore.</p>
                         </div>
-                        <div class="item">
-                            <img src="./images/mentor-carousel.jpg" class="img-fluid img-thumbnail" alt="">
-                            <h4>Farhan</h4>
+                        <div class="item item-review">
+                            <img src="./images/mentor-carousel.jpg" class="img-fluid item-review-img img-thumbnail" alt="">
+                            <h4 class="pt-2">Farhan</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eos officia obcaecati excepturi debitis sunt quos? Soluta, harum est unde excepturi voluptatem minus iusto tempore.</p>
                         </div>
-                        <div class="item">
-                            <img src="./images/mentor-carousel.jpg" class="img-fluid img-thumbnail" alt="">
-                            <h4>Farhan</h4>
+                        <div class="item item-review">
+                            <img src="./images/mentor-carousel.jpg" class="img-fluid item-review-img img-thumbnail" alt="">
+                            <h4 class="pt-2">Farhan</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eos officia obcaecati excepturi debitis sunt quos? Soluta, harum est unde excepturi voluptatem minus iusto tempore.</p>
                         </div>
                         <div class="item">
@@ -734,7 +774,7 @@
     </section>
 
 
-    <section>
+    <!-- <section class="teacher">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -773,8 +813,51 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-    </section>
+    </section> -->
 
+
+
+    <section class="started-today">
+        <p class="text-center pt-5 get-today">Get started today</p>
+        <h2 class="text-center get-today">Front End Web Developer</h2>
+
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-md-12 col-lg-6">
+                    <div class="per-month-cost mb-5">
+                        <p>Monthly access</p>
+                        <h4>Pay as you go</h4>
+                        <hr>
+                        <h2>$399</h2>
+                        <p>Per Month</p>
+                        <a href="#" class="btn btn-primary">Enroll Now <i class="bi bi-arrow-right"></i> </a>
+                        <p class="pt-3"><i class="fa-sharp fa-solid fa-caret-right"></i> Maximum flexibility to learn at your own pace.</p>
+
+                        <p><i class="fa-sharp fa-solid fa-caret-right"></i> Cancel anytime.</p>
+                        </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6">
+                    <div class="per-month-cost-two mb-5">
+                        <h5 class="best-value">Best Value</h5>
+                        <p>4-Months access</p>
+                        <h4>Pay upfront and save an extra 15%</h4>
+                        <hr>
+                        <h2>$1356 <del>$1596</del> </h2>
+                        <p>for 4-Month access</p>
+                        <a href="#" class="btn btn-primary">Enroll Now <i class="bi bi-arrow-right"></i> </a>
+                        <p class="pt-3"><i class="fa-sharp fa-solid fa-caret-right"></i> Save an extra 15% vs. pay as you go.</p>
+
+                        <p><i class="fa-sharp fa-solid fa-caret-right"></i> 4 months is the average time to complete this course.</p>
+                        <p><i class="fa-sharp fa-solid fa-caret-right"></i> Switch to monthly price after if more time is needed.</p>
+                        <p><i class="fa-sharp fa-solid fa-caret-right"></i> Cancel anytime.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
     <!-- bottom-to-top -->
 
     <a href="#" class="totop">
